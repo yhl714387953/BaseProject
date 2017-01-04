@@ -15,6 +15,7 @@
 		AB784AF61D655204000A92B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB784AF41D655204000A92B7 /* LaunchScreen.storyboard */; };
 		AB784B011D655204000A92B7 /* BaseProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB784B001D655204000A92B7 /* BaseProjectTests.m */; };
 		AB784B0C1D655204000A92B7 /* BaseProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB784B0B1D655204000A92B7 /* BaseProjectUITests.m */; };
+		F52162E1BAFEBE50EDB64DE7 /* libPods-BaseProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A93BD98CA8993EF838E48FF /* libPods-BaseProject.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7A93BD98CA8993EF838E48FF /* libPods-BaseProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BaseProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A048058B22D2A65EA09015A7 /* Pods-BaseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BaseProject/Pods-BaseProject.debug.xcconfig"; sourceTree = "<group>"; };
 		AB784AE31D655204000A92B7 /* BaseProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaseProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB784AE71D655204000A92B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AB784AE91D655204000A92B7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +54,7 @@
 		AB784B071D655204000A92B7 /* BaseProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaseProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB784B0B1D655204000A92B7 /* BaseProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseProjectUITests.m; sourceTree = "<group>"; };
 		AB784B0D1D655204000A92B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9322FBB98589A8022824E9B /* Pods-BaseProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-BaseProject/Pods-BaseProject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F52162E1BAFEBE50EDB64DE7 /* libPods-BaseProject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		735CB878ABAAFC4301247F09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A93BD98CA8993EF838E48FF /* libPods-BaseProject.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8206B7AA7E73C93E6AFD0388 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A048058B22D2A65EA09015A7 /* Pods-BaseProject.debug.xcconfig */,
+				F9322FBB98589A8022824E9B /* Pods-BaseProject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		AB784ADA1D655204000A92B7 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +107,8 @@
 				AB784AFF1D655204000A92B7 /* BaseProjectTests */,
 				AB784B0A1D655204000A92B7 /* BaseProjectUITests */,
 				AB784AE41D655204000A92B7 /* Products */,
+				8206B7AA7E73C93E6AFD0388 /* Pods */,
+				735CB878ABAAFC4301247F09 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -147,9 +171,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AB784B101D655204000A92B7 /* Build configuration list for PBXNativeTarget "BaseProject" */;
 			buildPhases = (
+				7FF8971DB337048AC89FDD97 /* [CP] Check Pods Manifest.lock */,
 				AB784ADF1D655204000A92B7 /* Sources */,
 				AB784AE01D655204000A92B7 /* Frameworks */,
 				AB784AE11D655204000A92B7 /* Resources */,
+				CDD7B4C6BDAD157011CF45D1 /* [CP] Embed Pods Frameworks */,
+				F6AC234647B3C1463F5C8877 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +234,8 @@
 				TargetAttributes = {
 					AB784AE21D655204000A92B7 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = J2R3U3AYNF;
+						ProvisioningStyle = Automatic;
 					};
 					AB784AFB1D655204000A92B7 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -264,6 +293,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7FF8971DB337048AC89FDD97 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CDD7B4C6BDAD157011CF45D1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BaseProject/Pods-BaseProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6AC234647B3C1463F5C8877 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BaseProject/Pods-BaseProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AB784ADF1D655204000A92B7 /* Sources */ = {
@@ -411,23 +488,37 @@
 		};
 		AB784B111D655204000A92B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A048058B22D2A65EA09015A7 /* Pods-BaseProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Feinno Communication Tech Co. Ltd.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = J2R3U3AYNF;
 				INFOPLIST_FILE = BaseProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.lb.www.BaseProject;
+				PRODUCT_BUNDLE_IDENTIFIER = com.feinno.heshengheyinglive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
 		AB784B121D655204000A92B7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9322FBB98589A8022824E9B /* Pods-BaseProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Feinno Communication Tech Co. Ltd.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = J2R3U3AYNF;
 				INFOPLIST_FILE = BaseProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.lb.www.BaseProject;
+				PRODUCT_BUNDLE_IDENTIFIER = com.feinno.heshengheyinglive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
@@ -496,6 +587,7 @@
 				AB784B121D655204000A92B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AB784B131D655204000A92B7 /* Build configuration list for PBXNativeTarget "BaseProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +596,7 @@
 				AB784B151D655204000A92B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AB784B161D655204000A92B7 /* Build configuration list for PBXNativeTarget "BaseProjectUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +605,7 @@
 				AB784B181D655204000A92B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

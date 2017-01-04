@@ -1,0 +1,20 @@
+{
+  "name": "EHomePage",
+  "version": "1.0.0",
+  "summary": "EHomePage 这个是首页",
+  "description": "It is created by Zuiye, for EHomePage",
+  "homepage": "https://github.com/yhl714387953/HomePage",
+  "license": "MIT",
+  "authors": {
+    "yuhailong": "714387953@qq.com"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "git": "https://github.com/yhl714387953/HomePage.git",
+    "commit": "b6e0304a2ad1eac4100bd65a0101bcb17f20a2e5"
+  },
+  "source_files": "EHomePage/*.{h,m}",
+  "requires_arc": true
+}
