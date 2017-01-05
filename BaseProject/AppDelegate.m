@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+//#import <LeftViewController.h>
+#import <CollectionViewController.h>
 
 @interface AppDelegate ()
 
@@ -17,6 +19,39 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+  
+    UICollectionViewFlowLayout* layout = [[UICollectionViewFlowLayout alloc] init];
+    CollectionViewController* vc = [[CollectionViewController alloc] initWithCollectionViewLayout:layout];
+    
+    __weak typeof(self) weakSelf = self;
+    vc.naviItemBlock = ^(UIBarButtonItem* item){
+        NSLog(@"点到了");
+        [weakSelf.sideViewController showLeftViewController:YES];
+    };
+    
+    UINavigationController* navi = [[UINavigationController alloc] initWithRootViewController:vc];
+    
+    
+    Class leftVC = NSClassFromString(@"LeftViewController");
+    UIViewController *leftViewController= [[leftVC alloc] init];
+    leftViewController.view.backgroundColor=[UIColor brownColor];
+    
+    UIViewController *rightViewController=[[UIViewController alloc]initWithNibName:nil bundle:nil];
+    rightViewController.view.backgroundColor=[UIColor purpleColor];
+    
+    _sideViewController=[[YRSideViewController alloc]initWithNibName:nil bundle:nil];
+    _sideViewController.rootViewController= navi;
+    _sideViewController.leftViewController=leftViewController;
+    _sideViewController.rightViewController=rightViewController;
+    
+    
+    _sideViewController.leftViewShowWidth= 240;// self.window.bounds.size.width * 0.7;
+    _sideViewController.needSwipeShowMenu=true;//默认开启的可滑动展示
+    //动画效果可以被自己自定义，具体请看api
+    
+    
+    self.window.rootViewController=_sideViewController;
+    
     return YES;
 }
 

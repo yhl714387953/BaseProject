@@ -13,8 +13,8 @@
   },
   "source": {
     "git": "https://github.com/yhl714387953/HomePage.git",
-    "commit": "b6e0304a2ad1eac4100bd65a0101bcb17f20a2e5"
+    "commit": "94eeaeb3294787935d69b0e49a280e6dc2ea221e"
   },
-  "source_files": "EHomePage/*.{h,m}",
+  "source_files": "EHomePage/**/*",
   "requires_arc": true
 }

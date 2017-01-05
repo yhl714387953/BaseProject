@@ -35,7 +35,7 @@ PODS:
 DEPENDENCIES:
   - AFNetworking (~> 3.1.0)
   - DZNEmptyDataSet (~> 1.8.1)
-  - EHomePage (from `https://github.com/yhl714387953/EHomePage.git`)
+  - EHomePage (from `~/Desktop/EHomePage/EHomePage.podspec`)
   - GYDataCenter (~> 0.1.1)
   - IQKeyboardManager (~> 4.0.8)
   - JGProgressHUD (~> 1.4)
@@ -48,17 +48,17 @@ DEPENDENCIES:
 
 EXTERNAL SOURCES:
   EHomePage:
-    :git: https://github.com/yhl714387953/EHomePage.git
+    :podspec: "~/Desktop/EHomePage/EHomePage.podspec"
 
 CHECKOUT OPTIONS:
   EHomePage:
-    :commit: 543e6f746d7dd06fe284a1fa215b8b304c7700ae
+    :commit: 3895187d19600958ffb216ee1adbb85a8a13fc18
     :git: https://github.com/yhl714387953/EHomePage.git
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
-  EHomePage: 514b3a7e5f593ed30826618ffb7a9138aef81f9a
+  EHomePage: 517848ab8207a8df1302965e6be209639707c906
   FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
   GYDataCenter: 620dc2564589f50d2370a691303e0d7215f7c0af
   IQKeyboardManager: 1a8189fa153bf09044355ee0ad36826f6767e7f7
@@ -70,6 +70,6 @@ SPEC CHECKSUMS:
   WMPageController: 9cd20cc63a9c9ea89b0629bdfcd890a61c94797d
   YRSideViewController: 08a659ef4b2c1c32dc31d1d8ee46d6019de1363a
 
-PODFILE CHECKSUM: 17c4a301e3641c20e2de8cf27a8e2a87cf0be8a2
+PODFILE CHECKSUM: 088e62a4e4f0f1ae3232049d0e62819f8e66153b
 
 COCOAPODS: 1.0.1

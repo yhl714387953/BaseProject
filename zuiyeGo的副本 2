@@ -1,0 +1,8 @@
+PRO_DIR="/Users/luobin/Desktop/六六六六六六/OC/BaseProject/"
+OUT_DIR="/Users/luobin/Desktop"
+cd ${PRO_DIR}
+pod update --verbose --no-repo-update
+
+echo "代码更新完成，可以执行打包命令"
+
+xcodebuild archive -workspace BaseProject.xcworkspace -scheme BaseProject -configuration Release -archivePath archive/BaseProject.xcarchive CODE_SIGN-IDENTITY="iPhone Distribution:Feinno Communication Tech Co.Ltd." PROVISIONING_PROFILE="4857d854-6f1c-4900-b046-be9d42e9a389"

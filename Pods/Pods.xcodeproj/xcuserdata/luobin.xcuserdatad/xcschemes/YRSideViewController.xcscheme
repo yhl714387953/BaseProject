@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'BF148BB8B9E64EECAE204E253A5DAC58'
+               BlueprintIdentifier = '1297E80AF3DF61689C9653768D2B0C76'
                BlueprintName = 'YRSideViewController'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libYRSideViewController.a'>

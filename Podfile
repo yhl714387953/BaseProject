@@ -39,7 +39,10 @@ pod 'JGProgressHUD', '~> 1.4'
 #以上是模块化基础，以下是模块
 
 #首页
-pod 'EHomePage', :git =>  'https://github.com/yhl714387953/EHomePage.git'
+#pod 'EHomePage', :git =>  'https://github.com/yhl714387953/EHomePage.git'
+
+#首页使用本地代码
+pod 'EHomePage', :podspec => '~/Desktop/EHomePage/EHomePage.podspec'
 
 end
 
