@@ -15,6 +15,8 @@
 		AB784AF61D655204000A92B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB784AF41D655204000A92B7 /* LaunchScreen.storyboard */; };
 		AB784B011D655204000A92B7 /* BaseProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB784B001D655204000A92B7 /* BaseProjectTests.m */; };
 		AB784B0C1D655204000A92B7 /* BaseProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB784B0B1D655204000A92B7 /* BaseProjectUITests.m */; };
+		ABAAA3861E1DDD6000C5FF7A /* BaseModel.podspec in Resources */ = {isa = PBXBuildFile; fileRef = ABAAA3851E1DDD6000C5FF7A /* BaseModel.podspec */; };
+		ABAAA3891E1DDD7900C5FF7A /* ZYBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ABAAA3881E1DDD7900C5FF7A /* ZYBaseModel.m */; };
 		F52162E1BAFEBE50EDB64DE7 /* libPods-BaseProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A93BD98CA8993EF838E48FF /* libPods-BaseProject.a */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +56,9 @@
 		AB784B071D655204000A92B7 /* BaseProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaseProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB784B0B1D655204000A92B7 /* BaseProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseProjectUITests.m; sourceTree = "<group>"; };
 		AB784B0D1D655204000A92B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABAAA3851E1DDD6000C5FF7A /* BaseModel.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BaseModel.podspec; sourceTree = "<group>"; };
+		ABAAA3871E1DDD7900C5FF7A /* ZYBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYBaseModel.h; sourceTree = "<group>"; };
+		ABAAA3881E1DDD7900C5FF7A /* ZYBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYBaseModel.m; sourceTree = "<group>"; };
 		F9322FBB98589A8022824E9B /* Pods-BaseProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-BaseProject/Pods-BaseProject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -129,6 +134,7 @@
 				AB784AEA1D655204000A92B7 /* AppDelegate.m */,
 				AB784AEC1D655204000A92B7 /* ViewController.h */,
 				AB784AED1D655204000A92B7 /* ViewController.m */,
+				ABAAA3831E1DDD6000C5FF7A /* BaseModel */,
 				AB784AEF1D655204000A92B7 /* Main.storyboard */,
 				AB784AF21D655204000A92B7 /* Assets.xcassets */,
 				AB784AF41D655204000A92B7 /* LaunchScreen.storyboard */,
@@ -162,6 +168,24 @@
 				AB784B0D1D655204000A92B7 /* Info.plist */,
 			);
 			path = BaseProjectUITests;
+			sourceTree = "<group>";
+		};
+		ABAAA3831E1DDD6000C5FF7A /* BaseModel */ = {
+			isa = PBXGroup;
+			children = (
+				ABAAA3851E1DDD6000C5FF7A /* BaseModel.podspec */,
+				ABAAA3841E1DDD6000C5FF7A /* BaseModel */,
+			);
+			path = BaseModel;
+			sourceTree = "<group>";
+		};
+		ABAAA3841E1DDD6000C5FF7A /* BaseModel */ = {
+			isa = PBXGroup;
+			children = (
+				ABAAA3871E1DDD7900C5FF7A /* ZYBaseModel.h */,
+				ABAAA3881E1DDD7900C5FF7A /* ZYBaseModel.m */,
+			);
+			path = BaseModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +297,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB784AF61D655204000A92B7 /* LaunchScreen.storyboard in Resources */,
+				ABAAA3861E1DDD6000C5FF7A /* BaseModel.podspec in Resources */,
 				AB784AF31D655204000A92B7 /* Assets.xcassets in Resources */,
 				AB784AF11D655204000A92B7 /* Main.storyboard in Resources */,
 			);
@@ -350,6 +375,7 @@
 				AB784AEE1D655204000A92B7 /* ViewController.m in Sources */,
 				AB784AEB1D655204000A92B7 /* AppDelegate.m in Sources */,
 				AB784AE81D655204000A92B7 /* main.m in Sources */,
+				ABAAA3891E1DDD7900C5FF7A /* ZYBaseModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
