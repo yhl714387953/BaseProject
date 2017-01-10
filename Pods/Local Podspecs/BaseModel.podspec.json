@@ -1,0 +1,19 @@
+{
+  "name": "BaseModel",
+  "version": "1.0.0",
+  "summary": "BaseModel是一个基础模块",
+  "description": "It is created by Zuiye, for EHomeProject",
+  "homepage": "https://github.com/yhl714387953/BaseProject",
+  "license": "MIT",
+  "authors": {
+    "yuhailong": "714387953@qq.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "path": "."
+  },
+  "source_files": "Classes/**/*.{h,m}",
+  "requires_arc": true
+}

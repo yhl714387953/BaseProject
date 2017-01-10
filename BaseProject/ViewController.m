@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 #import <AFNetworking.h>
+#import "JSTableViewController.h"
+//#import "JSTableViewController.h"
 
 @interface ViewController ()
 
@@ -61,6 +63,12 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (IBAction)jsTBVC:(UIButton *)sender {
+    JSTableViewController* vc = [[JSTableViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
+    
+    
 }
 
 @end

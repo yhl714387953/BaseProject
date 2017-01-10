@@ -1,0 +1,1 @@
+../../../../BaseProject/JSPatchModule/Classes/Controller/JSTableViewController.h

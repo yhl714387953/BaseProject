@@ -1,0 +1,1 @@
+../../../../../BaseProject/JSPatchModule/Resources/Framework/JSPatchPlatform.framework/Headers/JPEngine.h

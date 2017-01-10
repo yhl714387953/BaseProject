@@ -19,6 +19,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    return YES;
   
     UICollectionViewFlowLayout* layout = [[UICollectionViewFlowLayout alloc] init];
     CollectionViewController* vc = [[CollectionViewController alloc] initWithCollectionViewLayout:layout];
@@ -27,6 +29,16 @@
     vc.naviItemBlock = ^(UIBarButtonItem* item){
         NSLog(@"点到了");
         [weakSelf.sideViewController showLeftViewController:YES];
+        
+        Class wmClass = NSClassFromString(@"WMPageController");
+        if (wmClass) {
+//            UIViewController* wvc = [[wmClass alloc] init];
+//            wvc.view.backgroundColor = [UIColor purpleColor];
+//            [weakSelf.window.rootViewController presentViewController:wvc animated:YES completion:^{
+//                
+//            }];
+        }
+        
     };
     
     UINavigationController* navi = [[UINavigationController alloc] initWithRootViewController:vc];

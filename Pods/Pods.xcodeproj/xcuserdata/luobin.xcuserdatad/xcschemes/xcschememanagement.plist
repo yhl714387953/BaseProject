@@ -9,6 +9,16 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>BaseModel.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>CTMediator.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>DZNEmptyDataSet.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -35,6 +45,11 @@
 			<false/>
 		</dict>
 		<key>JGProgressHUD.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>JSPatchModule.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -77,12 +92,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>1297E80AF3DF61689C9653768D2B0C76</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>215A6E1081C7DB75C1243B260F3B16DC</key>
+		<key>1BFB3B05A116969F6DF820312CFDE8F1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -92,7 +102,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>3E776A38417E72FC53DDAEBCD84CEADF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>53480ED0BE09FF49E34B1702D485CAAB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>55F70612B5ED4A7D81B7DEBA5D836B43</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6DE6DE8CF6DC8A47C746201C71B090AF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -103,6 +128,11 @@
 			<true/>
 		</dict>
 		<key>736E57AD5AEFAAF68D47AE4E8FCB8F68</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8EB6DA6F229FABB8358A7C8D5425356F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -132,7 +162,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>D7529520DE6A6450D848AED0DCB3DD4E</key>
+		<key>D4692661A5B5882AC95C7747E845FE59</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -142,7 +172,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>FE24AA74E0DB94C3003A2D29F88AC2F0</key>
+		<key>EF287827EE435FFBEE197355D4EB6ADA</key>
 		<dict>
 			<key>primary</key>
 			<true/>

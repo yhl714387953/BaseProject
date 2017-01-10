@@ -1,0 +1,1 @@
+../../../../BaseProject/JSPatchModule/Resources/lib/SDKExport/WXApi.h

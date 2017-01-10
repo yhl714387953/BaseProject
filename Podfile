@@ -36,6 +36,12 @@ pod 'Masonry', '~> 1.0.2'
 #提示
 pod 'JGProgressHUD', '~> 1.4'
 
+#相册
+#pod 'XMNPhoto'
+
+#组件通信
+pod 'CTMediator', '~> 0.0.3'
+
 #以上是模块化基础，以下是模块
 
 #首页
@@ -43,6 +49,14 @@ pod 'JGProgressHUD', '~> 1.4'
 
 #首页使用本地代码
 pod 'EHomePage', :podspec => '~/Desktop/EHomePage/EHomePage.podspec'
+
+#首页使用本地代码
+pod 'BaseModel', :path => 'BaseProject/BaseModel'
+
+#资源文件测试
+pod 'JSPatchModule', :path => 'BaseProject/JSPatchModule'
+
+
 
 end
 

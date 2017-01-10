@@ -14,6 +14,8 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
+  - BaseModel (1.0.0)
+  - CTMediator (0.0.3)
   - DZNEmptyDataSet (1.8.1)
   - EHomePage (1.0.0)
   - FMDB (2.6.2):
@@ -23,6 +25,7 @@ PODS:
     - FMDB
   - IQKeyboardManager (4.0.8)
   - JGProgressHUD (1.4)
+  - JSPatchModule (1.0.0)
   - Masonry (1.0.2)
   - MJExtension (3.0.13)
   - MJRefresh (3.1.12)
@@ -34,11 +37,14 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking (~> 3.1.0)
+  - BaseModel (from `BaseProject/BaseModel`)
+  - CTMediator (~> 0.0.3)
   - DZNEmptyDataSet (~> 1.8.1)
   - EHomePage (from `~/Desktop/EHomePage/EHomePage.podspec`)
   - GYDataCenter (~> 0.1.1)
   - IQKeyboardManager (~> 4.0.8)
   - JGProgressHUD (~> 1.4)
+  - JSPatchModule (from `BaseProject/JSPatchModule`)
   - Masonry (~> 1.0.2)
   - MJExtension (~> 3.0.13)
   - MJRefresh (~> 3.1.12)
@@ -47,8 +53,12 @@ DEPENDENCIES:
   - YRSideViewController (~> 1.0.6)
 
 EXTERNAL SOURCES:
+  BaseModel:
+    :path: BaseProject/BaseModel
   EHomePage:
     :podspec: "~/Desktop/EHomePage/EHomePage.podspec"
+  JSPatchModule:
+    :path: BaseProject/JSPatchModule
 
 CHECKOUT OPTIONS:
   EHomePage:
@@ -57,12 +67,15 @@ CHECKOUT OPTIONS:
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  BaseModel: fbab092fd433a5a7baee924624ca2b7aae112be7
+  CTMediator: c9a1203561e2232cb9a72822659159a02ae3cf20
   DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
   EHomePage: 517848ab8207a8df1302965e6be209639707c906
   FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
   GYDataCenter: 620dc2564589f50d2370a691303e0d7215f7c0af
   IQKeyboardManager: 1a8189fa153bf09044355ee0ad36826f6767e7f7
   JGProgressHUD: 1617b0940cf80bb53e8f7d6f0fd69252ea45d6d4
+  JSPatchModule: 8f2fba5778a7fa41054986a7661a337b9a872a59
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
   MJExtension: 5932755f451458eefa24239358817f8d291240c7
   MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
@@ -70,6 +83,6 @@ SPEC CHECKSUMS:
   WMPageController: 9cd20cc63a9c9ea89b0629bdfcd890a61c94797d
   YRSideViewController: 08a659ef4b2c1c32dc31d1d8ee46d6019de1363a
 
-PODFILE CHECKSUM: 088e62a4e4f0f1ae3232049d0e62819f8e66153b
+PODFILE CHECKSUM: 5172bdda9f8d65f3238b4a0df9d53afd09b39728
 
 COCOAPODS: 1.0.1
